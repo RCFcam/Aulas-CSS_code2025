@@ -1,0 +1,67 @@
+/* Propriedades de fonte e texto*/
+
+/* Elemento Raiz */
+html {
+    font-size: 10px; /* fixando o tamanho das fontes para usar na proporção do REM ( 1 px = 1 rem). */
+}
+/*------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    text-align: right;
+    font-style: italic;
+    font-weight: 600;      /* Thin- Black */
+    text-decoration: none; /* linha no texto*/
+    letter-spacing: 3px;   /* espaçamento entre letras */
+    line-height: 20px;     /* espaçamento entre linhas */
+    /* hexadecimal / rgb / rgba * padrão de notação para cores.*/
+        /* modelos */
+        /* color: #615EFC; */
+        /* color: rgb(0, 94, 234); */
+    color: rgba(0, 94, 234, 0.5); 
+    font-size: 2rem; 
+
+         /*Unidades absolutas : ( px, cm , pt, etc... )*/
+         /*Unidades relativas : ( 
+            vh  => viewport height (altura tela).
+            vw  => viewport width  (largura tela).
+            %   =>
+            em  => 
+            rem =>       ) */
+
+}
+
+.quadrado1 {
+    background-color: royalblue;
+    width: 150px;
+    height: 150px;
+
+}
+
+.quadrado2 {
+    background-color: chartreuse;
+    width: 50vw;
+    height: 20vw;
+    
+}
+
+.secao2 {
+    background-color: pink;
+    width: 200px;
+    height: 600px;
+}
+
+.quadrado3 {
+    background-color: tomato;
+    width: 60%;
+    height: 40%;
+}
+
+.quadrado4 {
+    background-color: violet;
+    width: 200px;
+    height: 300px;
+}
